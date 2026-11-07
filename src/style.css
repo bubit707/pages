@@ -14,7 +14,7 @@ a:focus-visible { outline: 3px solid #36775b; outline-offset: 5px; }
 .container { width: min(100% - 48px, 960px); margin-inline: auto; }
 header { padding-block: 28px; border-bottom: 1px solid #dfe5dc; }
 .brand { display: inline-flex; align-items: center; gap: 12px; text-decoration: none; font-weight: 650; }
-.mark { display: grid; place-items: center; width: 36px; height: 36px; border-radius: 11px; background: #294d3e; color: white; font-size: 18px; }
+.brand-logo { display: block; width: 36px; height: 36px; object-fit: contain; flex-shrink: 0; }
 main { flex: 1; }
 .hero { padding-block: clamp(72px, 14vw, 150px); max-width: 720px; }
 .eyebrow { font-size: 12px; font-weight: 650; letter-spacing: .16em; text-transform: uppercase; color: #617466; margin: 0 0 22px; }
@@ -22,7 +22,6 @@ h1 { font-size: clamp(40px, 7vw, 66px); font-weight: 550; line-height: 1.1; lett
 .lead { color: #617067; font-size: 19px; max-width: 540px; margin: 0; }
 .links { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 36px; }
 .button { display: inline-block; border: 1px solid #cbd6cb; border-radius: 8px; padding: 11px 18px; text-decoration: none; font-size: 14px; font-weight: 550; }
-.button.primary { background: #294d3e; color: white; border-color: #294d3e; }
 .button:hover { background: #e8eee4; color: #20332c; }
 footer { padding-block: 24px; border-top: 1px solid #dfe5dc; color: #69766e; font-size: 13px; }
 .footer-content { display: flex; justify-content: space-between; gap: 16px; flex-wrap: wrap; }
@@ -40,3 +39,13 @@ footer nav { display: flex; gap: 22px; flex-wrap: wrap; }
 .document section + section { margin-top: 36px; }
 .document h2 { line-height: 1.4; }
 .document section p { margin-top: 10px; }
+.home { display: flex; flex-direction: column; }
+.contact { margin-top: auto; padding-bottom: 32px; }
+.contact p { margin: 0; color: #465b4e; }
+.support-email { overflow-wrap: anywhere; font-weight: 600; }
+.faq-list { margin-top: 36px; }
+.faq-list details { border-bottom: 1px solid #dfe5dc; padding-block: 20px; scroll-margin-top: 24px; }
+.faq-list details:first-child { border-top: 1px solid #dfe5dc; }
+.faq-list summary { cursor: pointer; font-weight: 600; line-height: 1.5; }
+.faq-list summary:focus-visible { outline: 3px solid #36775b; outline-offset: 5px; }
+.faq-answer p { margin-bottom: 0; }

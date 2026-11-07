@@ -18,7 +18,7 @@ npm run build
 npm run preview
 ```
 
-The build generates `docs/` with three standalone pages: `index.html`, `terms.html`, and `privacy.html`. Relative asset URLs support both repository GitHub Pages URLs and custom domains. The included `public/.nojekyll` is copied into the output to disable Jekyll processing.
+The build generates `docs/` with four standalone pages: `index.html`, `terms.html`, `privacy.html`, and `faq.html`. Relative asset URLs support both repository GitHub Pages URLs and custom domains. The included `public/.nojekyll` is copied into the output to disable Jekyll processing.
 
 ## GitHub Pages
 

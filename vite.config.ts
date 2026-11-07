@@ -5,7 +5,7 @@ export default defineConfig({
   build: {
     outDir: 'docs',
     rollupOptions: {
-      input: ['index.html', 'terms.html', 'privacy.html'],
+      input: ['index.html', 'terms.html', 'privacy.html', 'faq.html'],
     },
   },
 });
