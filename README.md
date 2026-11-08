@@ -35,3 +35,11 @@ For every update, run `npm run build` again and commit and push the updated sour
 - Replace the clearly marked placeholder content in `terms.html` and `privacy.html` before launch.
 - Update colors and layout in `src/style.css`.
 - `src/main.ts` loads the stylesheet and updates the copyright year.
+
+## PhotoBitAI template
+
+PhotoBitAI has a separate homepage at `/photobitai/`, with its own FAQ, terms, and privacy pages in `photobitai/`. All navigation stays within the respective app’s pages; there are no links between the two sites. Both use the shared stylesheet and TypeScript entry point.
+
+Preview locally at `http://localhost:5173/photobitai/` after running `npm run dev`. The production URL is `https://bubit707.github.io/pages/photobitai/`.
+
+PhotoBitAI has its own homepage, FAQ, legal policies, logo (`public/photobitai/logo.png`), and support email (`photobitai@gmail.com`). Run `npm run build` to regenerate both sites in `docs/` before committing and pushing.
